@@ -1,0 +1,431 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,400&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+h2, h3{
+    font-weight: 700;
+}
+
+h2{
+    font-size: 30px;
+}
+
+
+svg{
+    width: 20%;
+    margin: 0.5vw;
+}
+
+.yellowBar{
+    width: 1.5vw;
+    height: 4px;
+    background-color: #D2B356;
+    border-radius: 5px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.navBarContain{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navBar{
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    margin: 0 10vw;
+}
+
+.navBar li{
+    margin: 2vh 1vw;
+}
+
+.awesomeNavBar{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: flex-end;
+}
+
+.awesomeNavBar li{
+    margin: 2vh 0.5vw;
+}
+
+.headSection{
+    background-image: url(../images/banner-images/banner-image-1.jpg);
+    width: 100%;
+    background-attachment: fixed;
+    height: 70vh;
+    padding: 2vh;
+}
+
+.divSectionContain{
+    width: 20%;
+}
+
+h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+}
+
+.divSectionContain p{
+    margin: 2vh 0;
+}
+
+.divSectionContain button{
+    height: 3.5vh;
+    width: 12vw;
+    background-color: white;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: 5vh 0;
+}
+
+.headYellow{
+    margin: 8vh 0 0 0;
+}
+
+
+.imgDancer img{
+    width: 100%;
+}
+
+.pGrey{
+    color: #CCCCCC;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.helpSellContain{
+    display: flex;
+    flex-direction: row;
+    height: 40vh;
+    margin: 5vh;
+}
+
+.descriptionGrey{
+    color: #CCCCCC;
+    font-weight: 400;
+}
+
+.questionContain{
+    width: 40%;
+}
+
+.questionContain .yellowBar{
+    margin: 2vh 0;
+}
+
+.helpSellContain div article{
+    margin: 0 5vh;
+}
+
+.helpSellContain div article:nth-child(2){
+    margin: 7vh 5vh;
+}
+
+.awesomeGold{
+    color: #D2B356;
+    font-size: 25px;
+    padding: 2vh 0;
+}
+
+
+.imgContain{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.images{
+    width: 33%;
+    height: 25vh;
+    background-size: cover;
+}
+
+.img1{
+    background-image: url(../images/gallery-images/gallery-image-1.jpg);
+}
+
+.img2{
+    background-image: url(../images/gallery-images/gallery-image-2.jpg);
+}
+
+.img3{
+    background-image: url(../images/gallery-images/gallery-image-3.jpg);
+}
+
+.img4{
+    background-image: url(../images/gallery-images/gallery-image-4.jpg);
+}
+
+.img5{
+    background-image: url(../images/gallery-images/gallery-image-5.jpg);
+}
+
+.img6{
+    background-image: url(../images/gallery-images/gallery-image-6.jpg);
+}
+
+#focusingSection{
+    height: 75vh;
+}
+
+#focusingSection article{
+    display: flex;
+    flex-direction: row;
+}
+
+#focusingSection img{
+    width: 30%;
+}
+
+#citationContain{
+    width: 35%;
+    padding: 0 5vw;
+    text-align: end;
+}
+
+#citationContain p:nth-child(1){
+    font-weight: 400;
+}
+
+.miniP{
+    font-weight: 600;
+}
+
+#explicationFocusingContain{
+    width: 35%;
+}
+
+#explicationFocusingContain p:nth-child(1){
+    font-size: 15px;
+}
+
+#explicationFocusingContain h2{
+    font-size: 35px;
+    padding: 1.5vh 0;
+}
+
+#greyDescription{
+    padding: 1.5vh 0;
+    color: #CCCCCC;
+}
+
+.blackDescription{
+    font-weight: 400;
+}
+
+.blackDescriptionPadding{
+    padding: 1.5vh 0;
+}
+
+#explicationFocusingContain button{
+    height: 3.5vh;
+    width: 7vw;
+    background-color: white;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    border-radius: 3px;
+}
+
+.imgDancer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#focusingSection article{
+    padding: 5vh 0;
+}
+
+#customerTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#customerTitle .yellowBar{
+    margin: 2vh 0;
+}
+
+#feedbackContain div:nth-child(2){
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+#feedbackContain article img{
+    width: 7vw;
+    height: 7vw;
+    border-radius: 50%;
+}
+
+#feedbackContain article p:nth-child(2){
+    padding: 1.5vh 0 0 0;
+    font-weight: 400;
+}
+
+#feedbackContain article{
+    padding: 4vh 2vh;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#feedbackContain article .yellowBar{
+    margin: 1.5vh 0;
+}
+
+#companiesContain{
+    height: 60vh;
+}
+
+#companiesContain article{
+    display: flex;
+    flex-direction: row;
+    padding: 4vh;
+}
+
+#companiesContain article div:nth-child(1){
+    width: 30%;
+}
+
+#companiesContain article div h2{
+    margin: 2vh 0;
+}
+
+#companiesContain article div .yellowBar{
+    margin: 2vh 0;
+}
+
+#imgCompaniesContain{
+    display: flex;
+    flex-direction: column;
+}
+
+#imgCompaniesContain div{
+    display: flex;
+    flex-direction: row;
+}
+
+#imgCompaniesContain div img{
+    width: 15vw;
+    height: 10vw;
+}
+
+#abonnementsContain{
+    background-color: #F5F5F5;
+}
+
+#titlePackageContain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#titlePackageContain h2{
+    padding: 1.5vh 0;
+}
+
+#tarifsContain{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#tarifsContain article{
+    background-color: white;
+    margin: 2vh 2vw;
+}
+
+#tarifsContain article{
+    text-align: center;
+}
+
+.bcgGray{
+    background-color: #F5F5F5;
+}
+
+#bcgGold{
+    background-color: #D2B356;
+    color: white;
+}
+
+#tarifsContain article div h3{
+    padding: 2vh 0 0 0;
+    text-transform: uppercase;
+}
+
+.grayItalic{
+    color: #CCCCCC;
+    font-style: italic;
+    padding: 2vh 1vw;
+}
+
+.italic{
+    font-style: italic;
+    padding: 2vh 1vw;
+}
+
+.price{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.detailContain p{
+    border-bottom: 1px solid #CCCCCC;
+    padding: 1.5vh 0;
+    font-weight: 400;
+}
+
+.detailContain p:nth-child(5){
+    border: none;
+}
+
+#tarifsContain button{
+    height: 3.5vh;
+    width: 7vw;
+    background-color: white;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: 5vh 0;
+}
+
+
+footer{
+    display: flex;
+    flex-direction: row;
+}
+
+footer p{
+    color: #CCCCCC;
+    margin: 2vh;
+}
+
+footer ul li{
+    color: #CCCCCC;
+    margin: 0 1vw;
+}
+
+footer ul{
+    display: flex;
+    justify-content: flex-end;
+}
